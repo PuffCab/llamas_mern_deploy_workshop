@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import "./App.css";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+
 import Profile from "./pages/Profile";
 import useUserStatus from "./hooks/useUserStatus";
 
