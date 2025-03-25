@@ -31,6 +31,7 @@ function addMiddleWares() {
   const allowedOrigins = [
     "http://localhost:5173",
     "http://llamas-mern-deploy-workshopclient.vercel.app",
+    "https://llamas-mern-deploy-workshopclient.vercel.app",
   ];
   const corsOptions = {
     origin: function (origin, callback) {
